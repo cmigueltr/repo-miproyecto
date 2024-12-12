@@ -29,9 +29,10 @@ main{
             
         
         }
-        .final_main{
+        .info_main{
             display: flex;
-            flex-direction: row;   
+            flex-direction: row;
+            padding-bottom: 30px;   
         }
         .info {
        
@@ -46,8 +47,8 @@ main{
     }
     
     @media (max-width: 600px) {
-        .final_main{
-            flex-direction: column;
+        .info_main{
+            flex-wrap: wrap;
         }
     }
     
