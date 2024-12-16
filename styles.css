@@ -249,11 +249,13 @@ body {
   flex-direction: row;
   justify-items: center;
   width: auto;
+  align-items: center;
 }
 
 figure {
   padding-right: 25px;
   padding-top: 70px;
+  height: max-content;
 }
 figure img {
   display: flex;
@@ -264,6 +266,12 @@ figure img {
   object-fit: cover;
   border-radius: 30px;
 }
+figure figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #666;
+  text-align: center;
+}
 
 p {
   padding: 30px 30px;
@@ -272,7 +280,7 @@ p {
 
 .description_equipo {
   justify-content: center;
-  width: 100vh;
+  width: fit-content;
   padding-top: 80px;
   margin-left: 20px;
   padding-right: 0;
@@ -298,11 +306,14 @@ p {
 .section_equipo2 {
   display: flex;
   flex-direction: row-reverse;
+  justify-items: center;
+  width: auto;
+  align-items: center;
 }
 
 .description_equipo2 {
   justify-content: center;
-  width: 100vh;
+  width: fit-content;
   padding-top: 80px;
   margin-right: 20px;
   padding-right: 0;

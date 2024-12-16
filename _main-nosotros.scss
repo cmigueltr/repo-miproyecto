@@ -13,16 +13,20 @@
             padding-bottom: 50px;
             text-align: center;
         }
+
+        
     .section_equipo{
         display: flex;
         flex-direction: row;
         justify-items: center;
         width: auto;
+        align-items: center;
         
     }
         figure{
             padding-right: 25px;
             padding-top: 70px;
+            height: max-content;
             img{
                 display: flex;
                 justify-content: center;
@@ -32,15 +36,21 @@
                 object-fit: cover;
                 border-radius: 30px;
             }
-            
+            figcaption {
+                margin-top: 10px;
+                font-style: italic;
+                color: #666;
+                text-align: center;
+            }
         }
+        
         p{
             padding: 30px 30px;
             text-align:justify;
         }
         .description_equipo{
             justify-content: center;
-            width: 100vh;
+            width: fit-content;
             padding-top: 80px;
             margin-left: 20px;
             padding-right: 0;
@@ -61,17 +71,22 @@
                 font-size: 25px;
 
             }
-}
+        }
+
 
 
 
     .section_equipo2{
         display: flex;
         flex-direction: row-reverse;
+        justify-items: center;
+        width: auto;
+        align-items: center;
+        
     }
         .description_equipo2{
             justify-content: center;
-            width: 100vh;
+            width:fit-content;
             padding-top: 80px;
             margin-right: 20px;
             padding-right: 0;
@@ -101,6 +116,7 @@
                 object-fit: cover;
                 border-radius: 30px;
             }
+            
             
         }
         .description_equipo{
