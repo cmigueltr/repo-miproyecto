@@ -9,8 +9,9 @@
     h1{
         padding-bottom: 20px;
     }
-    p{
+    .textservice{
         text-align: center;
+
     }
     .allservice{
         flex-direction: column;
@@ -22,12 +23,17 @@
         max-width:900px;
         min-height: 300px;
         color: rgb(0, 0, 0);
+
     }
         h4{
             padding-top: 30px;
+            text-decoration:underline;
         }
         .fa-solid{
             color: rgb(24, 86, 140);
+        }
+        p{
+            text-align: justify;
         }
 
     .allservice:hover{

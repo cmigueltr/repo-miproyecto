@@ -69,6 +69,7 @@ main .info_main {
   display: flex;
   flex-direction: row;
   padding-bottom: 30px;
+  text-align: center;
 }
 main .info {
   padding: 10px 10px;
@@ -383,7 +384,7 @@ h1 {
   padding-bottom: 20px;
 }
 
-p {
+.textservice {
   text-align: center;
 }
 
@@ -401,10 +402,15 @@ p {
 
 h4 {
   padding-top: 30px;
+  text-decoration: underline;
 }
 
 .fa-solid {
   color: rgb(24, 86, 140);
+}
+
+p {
+  text-align: justify;
 }
 
 .allservice:hover {
