@@ -1,0 +1,45 @@
+.service{
+    display: flex;
+    padding: 50px 50px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+    h1{
+        padding-bottom: 20px;
+    }
+    p{
+        text-align: center;
+    }
+    .allservice{
+        flex-direction: column;
+        border: solid;
+        border-radius: 25px;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin-bottom: 30px;
+        max-width:900px;
+        min-height: 300px;
+        color: rgb(0, 0, 0);
+    }
+        h4{
+            padding-top: 30px;
+        }
+        .fa-solid{
+            color: rgb(24, 86, 140);
+        }
+
+    .allservice:hover{
+        background-image: radial-gradient(circle, rgb(7, 94, 186), rgb(167, 197, 245));
+        .fa-solid{
+            color: rgb(167, 228, 243);
+        }
+    }
+        
+
+        
+
+
+
+       
