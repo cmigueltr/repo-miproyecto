@@ -84,3 +84,5 @@ dots.forEach((dot, index) => {
     updateSlides();
   });
 });
+
+
