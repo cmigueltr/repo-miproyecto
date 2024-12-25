@@ -86,3 +86,12 @@ dots.forEach((dot, index) => {
 });
 
 
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  const form = e.target;
+  if (form.checkValidity()) {
+      alert('Formulario enviado correctamente');
+      form.reset();
+  }
+});
