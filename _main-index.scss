@@ -4,6 +4,7 @@ main{
     flex-direction: column;
     position:unset;
     justify-content: space-around;
+    justify-items: center;
     margin-top: 0;
     padding-top: 55px;
     padding-bottom: 1rem;
@@ -19,10 +20,9 @@ main{
             margin-bottom: 25px;
         }
         .finalmain {
-            width: 100%;
-            padding: 10px;
-            margin: auto;
+
             display: flex;
+            padding: 10px;
             justify-content: center;
             align-items: center;
             flex-direction: column;
@@ -32,22 +32,24 @@ main{
         .info_main{
             display: flex;
             flex-direction: row;
-            padding-bottom: 30px; 
+            padding-bottom: 30px;
             text-align: center; 
+            justify-content: center;
         }
         .info {
-       
+            width:auto;
+            height:fit-content;
             padding: 10px 10px;
             margin: 10px;
-            background-image: radial-gradient(circle, gold, rgb(237, 222, 138));
+            background-image: radial-gradient(circle, rgb(85, 5, 114), rgb(182, 67, 232));
             border-radius: 25px;
-        
-        }
+            text-align: center;
+            color: aliceblue;
 
         
+        }
     }
-    
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         .info_main{
             flex-wrap: wrap;
         }

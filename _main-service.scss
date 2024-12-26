@@ -1,6 +1,6 @@
 .service{
     display: flex;
-    padding: 50px 50px;
+    padding: 30px 50px;
     margin-top: 50px;
     text-align: center;
     align-items: center;
@@ -8,6 +8,7 @@
 }
     h1{
         padding-bottom: 20px;
+        color: rgb(11, 55, 120);
     }
     .textservice{
         text-align: center;
@@ -28,6 +29,7 @@
         h4{
             padding-top: 30px;
             text-decoration:underline;
+            color: rgb(11, 55, 120);
         }
         .fa-solid{
             color: rgb(24, 86, 140);
@@ -40,6 +42,9 @@
         background-image: radial-gradient(circle, rgb(7, 94, 186), rgb(167, 197, 245));
         .fa-solid{
             color: rgb(167, 228, 243);
+        }
+        h4{
+            color: aqua;
         }
     }
         

@@ -8,6 +8,10 @@ header .navbar {
   background: linear-gradient(230deg, rgb(11, 55, 120) 0%, rgb(80, 136, 219) 70%);
 }
 
+nav .container-fluid ul li a {
+  color: aliceblue !important;
+}
+
 footer {
   display: inline-block;
   position: relative;
@@ -41,6 +45,7 @@ main {
   flex-direction: column;
   position: unset;
   justify-content: space-around;
+  justify-items: center;
   margin-top: 0;
   padding-top: 55px;
   padding-bottom: 1rem;
@@ -57,10 +62,8 @@ main .imagendelindex {
   margin-bottom: 25px;
 }
 main .finalmain {
-  width: 100%;
-  padding: 10px;
-  margin: auto;
   display: flex;
+  padding: 10px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -70,15 +73,20 @@ main .info_main {
   flex-direction: row;
   padding-bottom: 30px;
   text-align: center;
+  justify-content: center;
 }
 main .info {
+  width: auto;
+  height: fit-content;
   padding: 10px 10px;
   margin: 10px;
-  background-image: radial-gradient(circle, gold, rgb(237, 222, 138));
+  background-image: radial-gradient(circle, rgb(85, 5, 114), rgb(182, 67, 232));
   border-radius: 25px;
+  text-align: center;
+  color: aliceblue;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .info_main {
     flex-wrap: wrap;
   }
@@ -236,7 +244,7 @@ body {
 .section_nosotros {
   text-align: center;
   justify-items: center;
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
@@ -374,7 +382,7 @@ p {
 }
 .service {
   display: flex;
-  padding: 50px 50px;
+  padding: 30px 50px;
   margin-top: 50px;
   text-align: center;
   align-items: center;
@@ -383,6 +391,7 @@ p {
 
 h1 {
   padding-bottom: 20px;
+  color: rgb(11, 55, 120);
 }
 
 .textservice {
@@ -404,6 +413,7 @@ h1 {
 h4 {
   padding-top: 30px;
   text-decoration: underline;
+  color: rgb(11, 55, 120);
 }
 
 .fa-solid {
@@ -420,11 +430,15 @@ p {
 .allservice:hover .fa-solid {
   color: rgb(167, 228, 243);
 }
+.allservice:hover h4 {
+  color: aqua;
+}
 
 h1 {
   text-align: center;
   padding-top: 50px;
   text-decoration: underline;
+  color: rgb(11, 55, 120);
 }
 
 .carousels-section {
@@ -598,6 +612,12 @@ h1 {
   text-decoration: underline;
   padding: 25px 0;
 }
+.main_contact h4 {
+  color: rgb(11, 55, 120);
+}
+.main_contact h2 {
+  color: rgb(11, 55, 120);
+}
 
 .form-container {
   background-color: white;
@@ -667,6 +687,14 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.h2slide {
+  text-align: center;
+}
+
+.textslide {
+  text-align: center;
 }
 
 .whatsapp-float {
